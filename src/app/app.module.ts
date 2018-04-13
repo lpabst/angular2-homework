@@ -4,10 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ShortProfileComponent } from './shortProfile/shortProfile.component';
+import { SimilarListComponent } from './simliarlist/simllarlist.component';
+import { NameLabel } from './pipes/name-label.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfileComponent,
+    ShortProfileComponent,
+    SimilarListComponent,
+    NameLabel,
   ],
   imports: [
     BrowserModule,
